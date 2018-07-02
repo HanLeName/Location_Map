@@ -105,14 +105,7 @@
 		4E36D2651CB3B26000B37974 /* Location_Text */ = {
 			isa = PBXGroup;
 			children = (
-				4E36D2691CB3B26000B37974 /* AppDelegate.h */,
-				4E36D26A1CB3B26000B37974 /* AppDelegate.m */,
-				4E36D26C1CB3B26000B37974 /* ViewController.h */,
-				4E36D26D1CB3B26000B37974 /* ViewController.m */,
-				4E36D26F1CB3B26000B37974 /* Main.storyboard */,
-				4E36D2721CB3B26000B37974 /* Assets.xcassets */,
-				4E36D2741CB3B26000B37974 /* LaunchScreen.storyboard */,
-				4E36D2771CB3B26000B37974 /* Info.plist */,
+				BC384DD120E9FEC50074E34F /* Class */,
 				4E36D2661CB3B26000B37974 /* Supporting Files */,
 			);
 			path = Location_Text;
@@ -121,6 +114,14 @@
 		4E36D2661CB3B26000B37974 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4E36D2691CB3B26000B37974 /* AppDelegate.h */,
+				4E36D26A1CB3B26000B37974 /* AppDelegate.m */,
+				4E36D26C1CB3B26000B37974 /* ViewController.h */,
+				4E36D26D1CB3B26000B37974 /* ViewController.m */,
+				4E36D26F1CB3B26000B37974 /* Main.storyboard */,
+				4E36D2721CB3B26000B37974 /* Assets.xcassets */,
+				4E36D2741CB3B26000B37974 /* LaunchScreen.storyboard */,
+				4E36D2771CB3B26000B37974 /* Info.plist */,
 				4E36D2671CB3B26000B37974 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -142,6 +143,37 @@
 				4E36D28D1CB3B26000B37974 /* Info.plist */,
 			);
 			path = Location_TextUITests;
+			sourceTree = "<group>";
+		};
+		BC384DD120E9FEC50074E34F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				BC384DD420E9FEEB0074E34F /* controllers */,
+				BC384DD320E9FEE20074E34F /* model */,
+				BC384DD220E9FED30074E34F /* view */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		BC384DD220E9FED30074E34F /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		BC384DD320E9FEE20074E34F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		BC384DD420E9FEEB0074E34F /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,6 +532,7 @@
 				4E36D2921CB3B26000B37974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E36D2931CB3B26000B37974 /* Build configuration list for PBXNativeTarget "Location_TextTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +541,7 @@
 				4E36D2951CB3B26000B37974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E36D2961CB3B26000B37974 /* Build configuration list for PBXNativeTarget "Location_TextUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +550,7 @@
 				4E36D2981CB3B26000B37974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
