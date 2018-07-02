@@ -16,6 +16,7 @@
 		4E36D2811CB3B26000B37974 /* Location_TextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E36D2801CB3B26000B37974 /* Location_TextTests.m */; };
 		4E36D28C1CB3B26000B37974 /* Location_TextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E36D28B1CB3B26000B37974 /* Location_TextUITests.m */; };
 		4E36D29A1CB3B2AD00B37974 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E36D2991CB3B2AD00B37974 /* CoreLocation.framework */; };
+		BC384DD720E9FFE30074E34F /* HBHBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BC384DD620E9FFE30074E34F /* HBHBaseVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4E36D28B1CB3B26000B37974 /* Location_TextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Location_TextUITests.m; sourceTree = "<group>"; };
 		4E36D28D1CB3B26000B37974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E36D2991CB3B2AD00B37974 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BC384DD520E9FFE30074E34F /* HBHBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBHBaseVC.h; sourceTree = "<group>"; };
+		BC384DD620E9FFE30074E34F /* HBHBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBHBaseVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		4E36D2661CB3B26000B37974 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC384DD520E9FFE30074E34F /* HBHBaseVC.h */,
+				BC384DD620E9FFE30074E34F /* HBHBaseVC.m */,
 				4E36D2691CB3B26000B37974 /* AppDelegate.h */,
 				4E36D26A1CB3B26000B37974 /* AppDelegate.m */,
 				4E36D26C1CB3B26000B37974 /* ViewController.h */,
@@ -306,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC384DD720E9FFE30074E34F /* HBHBaseVC.m in Sources */,
 				4E36D26E1CB3B26000B37974 /* ViewController.m in Sources */,
 				4E36D26B1CB3B26000B37974 /* AppDelegate.m in Sources */,
 				4E36D2681CB3B26000B37974 /* main.m in Sources */,
